@@ -104,7 +104,7 @@ body{
     }
     
     .collapse{
-        display: inherit;
+        display:block;
     }
     
     .content-shadow{
@@ -463,6 +463,25 @@ body, html{
     }
 }
 
+@media (max-width: 530px){
+     .geschichte-img{
+        margin-bottom: 25px;
+    }
+    
+    .bd-img{
+        display: none;
+    }
+    
+    .demographie-container{
+        margin-top: 750px;
+    }
+    
+    h2{
+        font-size: 15px;
+    }
+
+}
+
 
 #page-top .btn{
     box-shadow: none !important;
@@ -575,7 +594,6 @@ body, html{
 
 
 .collapse{
-    display: flex;
     justify-content: space-between;
 }
 
