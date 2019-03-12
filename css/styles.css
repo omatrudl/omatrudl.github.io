@@ -464,8 +464,14 @@ body, html{
 }
 
 @media (max-width: 530px){
+    
+     body{
+            max-width: 100%;
+    overflow-x: hidden;
+    }
      .geschichte-img{
         margin-bottom: 25px;
+         margin-left: 0;
     }
     
     .bd-img{
@@ -473,11 +479,62 @@ body, html{
     }
     
     .demographie-container{
-        margin-top: 750px;
     }
     
     h2{
-        font-size: 15px;
+        font-size: 25px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 25px;
+    }
+    
+    .content-bereich p{
+        font-size: 8px !important;
+    }
+    
+    
+    p.text-geschichte{
+        text-align: justify;
+        font-size: 14px;
+    }
+    
+    .phone-aspekt{
+        height: 750px !important;
+    }
+    
+    .phone-aspekt-text{
+        width: 90% !important;
+    }
+    
+    .main-ue{
+        font-size: 20px !important;
+        margin-top: 55px !important;
+        white-space: pre;
+    }
+    .geschichte.text-bg{
+        background-color: white !important;
+    }
+    
+    .width90{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .letzte-karte{
+        margin-bottom: 70px;
+    }
+    
+    .p-footer{
+        padding-top: 10px !important;
+    }
+    
+    .title-margin-top{
+        margin-top: 40px !important;
     }
 
 }
@@ -631,6 +688,8 @@ body, html{
     color: white;
 
   transform-origin: right center; 
+      display: flex;
+    justify-content: center;
 
 }
 
@@ -649,6 +708,7 @@ body, html{
       display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center
 }
 .spincard .back {
   background: #64a19d;
@@ -672,6 +732,8 @@ body, html{
   transition: transform 1s;
   transform-origin: right center; 
     color: white;
+      display: flex;
+    justify-content: center;
 
 
 }
@@ -691,6 +753,7 @@ body, html{
           display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .spincard2 .back {
   background: #64a19d;
@@ -714,6 +777,8 @@ body, html{
   transition: transform 1s;
   transform-origin: right center; 
     color: white;
+  display: flex;
+    justify-content: center;
 
 
 }
@@ -733,6 +798,7 @@ body, html{
           display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 .spincard3 .back {
   background: #64a19d;
